@@ -1,0 +1,19 @@
+Venue Table: This table will store the details of all the venues where IPL matches are going to be held. The fields in this table can be:
+    Venue ID (Primary Key)
+    Venue Name
+    Venue City
+    Venue Capacity
+Team Table: This table will store the details of all the teams that will be playing in the IPL next year. The fields in this table can be:
+    Team ID (Primary Key)
+    Team Name
+    Captain Name
+Fixture Table: This table will store the details of all the fixtures for IPL next year. The fields in this table can be:
+    Fixture ID (Primary Key)
+    Match Date
+    Toss Won By
+    Match Won By
+    Venue ID (Foreign Key referencing Venue Table)
+    Team 1 ID (Foreign Key referencing Team Table)
+    Team 2 ID (Foreign Key referencing Team Table)
+
+this structure consist of three tables this keeps redundency minimum and joing table make it little bit complicated so that is a con of this 
